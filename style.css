@@ -12,8 +12,15 @@
 /* .courses-header {
   width: 60%;
 } */
+.navbar-toggler {
+  margin-right: 100px;
+}
 .courses-header {
   margin: 0 15%;
+}
+.carousel-body {
+  /* height: 100%;
+  padding-top: 40%; */
 }
 
 .card-img img {
@@ -23,12 +30,36 @@
   margin: 10px;
 }
 
-.company-logo {
+/* .company-logo {
   width: 80%;
-}
+} */
 
 /* responsive */
 
-/* @media screen and (){
-  
-} */
+@media screen and (min-width: 992px) {
+  .registrationbtn {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .registrationbtn {
+    display: none;
+  }
+  .row-cols-sm-1 {
+    display: flex;
+    flex-direction: column;
+  }
+  .d-flex {
+    display: flex;
+    flex-direction: column;
+    margin: 0 30%;
+  }
+  .col-sm-12 img {
+    width: 120%;
+    height: 150px;
+  }
+  .card-body {
+    text-align: center;
+  }
+}
