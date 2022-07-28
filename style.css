@@ -3,3 +3,7 @@
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
+
+.carousel-item img {
+  filter: brightness(40%);
+}
