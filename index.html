@@ -118,15 +118,12 @@
 <!-- carousel part end -->
 <!-- --------------------------------------------------------- -->
 <!-- card part start -->
-<section class="">
+<section class="my-5">
   <div class="container">
-    <!-- my-5 mx-5 -->
     <div class=" text-center courses-header my-5">
-      <div class="text-cente ">
         <h2 class="">Discover Our Popular 
           Courses</h2>
-          <p class="">Education courses are designed for individuals seeking to enhance their professional credentials in the field of education.</p>
-      </div>
+          <p class="course-text">Education courses are designed for individuals seeking to enhance their professional credentials in the field of education.</p>
     </div>
       <div class="row row-cols-sm-1 row-cols-md-1 row-cols-lg-2 m-0 p-0">
         <div class="col p-0">
@@ -253,7 +250,44 @@
 </section>
 <!-- card part end -->
 <!-- --------------------------------------------------------- -->
-
+<!-- modal start -->
+<!--  -->
+<div class="container py-5 my-5 bg-primary d-lg-flex justify-content-between align-items-center">
+  <div class="div-item px-5 text-white col-lg-5 col-md-12">
+     <h2 class="">Ready to join?</h2>
+    <p>It is a long established fact that a reader will be distracted by the 
+      readable content of a page when looking at its layout.</p>
+  </div>
+  <div class=""><button class="btn btn-light me-5 text-primary fw-bolder" data-bs-toggle="modal" data-bs-target="#mymodal">Registration</button></div>
+  
+</div>
+<!-- modal -->
+<div class="modal fade" id="mymodal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Form</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <label for="mailinput" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="mailinput" placeholder="name@example.com">
+        </div>
+        <div class="mb-3">
+          <label for="inputpassword" class="form-label">Password</label>
+          <input type="password" class="form-control" id="inputpassword" placeholder="password">
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancel</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--  -->
+<!-- modal end -->
 <!-- FAQ part Start -->
 <div class="container mb-5">
   <h2 class="fw-bold text-center mb-3">Frequently Asked Questions</h2>
