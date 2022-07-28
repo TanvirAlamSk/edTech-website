@@ -7,3 +7,12 @@
 .carousel-item img {
   filter: brightness(40%);
 }
+
+/*  */
+
+.card-img img {
+  width: 25%;
+}
+.card-part {
+  margin: 10px;
+}
