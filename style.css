@@ -57,9 +57,17 @@
   }
   .col-sm-12 img {
     width: 120%;
-    height: 150px;
+    height: 250px;
   }
   .card-body {
     text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .carousel-body h1 {
+    font-size: 22px;
+  }
+  .carousel-body p {
+    font-size: 15px;
   }
 }
