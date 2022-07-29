@@ -8,19 +8,11 @@
   filter: brightness(40%);
 }
 
-/*  */
-/* .courses-header {
-  width: 60%;
-} */
 .navbar-toggler {
   margin-right: 100px;
 }
 .courses-header {
   margin: 0 15%;
-}
-.carousel-body {
-  /* height: 100%;
-  padding-top: 40%; */
 }
 
 .card-img img {
@@ -29,12 +21,6 @@
 .card-part {
   margin: 10px;
 }
-
-/* .company-logo {
-  width: 80%;
-} */
-
-/* responsive */
 
 @media screen and (min-width: 992px) {
   .registrationbtn {
